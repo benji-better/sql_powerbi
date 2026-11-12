@@ -364,7 +364,7 @@ conc_quarter_seasonal_table = pd.concat([quarter_seasonal_table_0, quarter_seaso
 conc_biann_seasonal_table = pd.concat([biann_seasonal_table_0, biann_seasonal_table_1, biann_seasonal_table_2])
 conc_annual_seasonal_table = pd.concat([cluster_yearly_sales_0, cluster_yearly_sales_1, cluster_yearly_sales_2])
 
-# conc_quarter_seasonal_table.to_csv('/cluster_quarter_sales.csv')
-# conc_biann_seasonal_table.to_csv('/cluster_biann_sales.csv')
-# conc_annual_seasonal_table.to_csv('/cluster_annual_sales.csv')
+# conc_quarter_seasonal_table.to_csv('cluster_quarter_sales.csv')
+# conc_biann_seasonal_table.to_csv('cluster_biann_sales.csv')
+# conc_annual_seasonal_table.to_csv('cluster_annual_sales.csv')
 
