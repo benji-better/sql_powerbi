@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import MinMaxScaler
 
 
-df = pd.read_csv(r'..\supply_chain_portf_10_16_26.csv')
+df = pd.read_csv(r'..supply_chain_portf_10_16_26.csv')
 
 df['Date'] = pd.to_datetime(df['Date'])
 stack_df = df.loc[df['SKU_ID'] == 'SKU_1']
